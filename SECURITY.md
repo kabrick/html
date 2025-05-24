@@ -7,8 +7,6 @@ The following versions of this project are currently being supported with securi
 | Version | Supported          |
 | ------- | ------------------ |
 | 7.x     | :white_check_mark: |
-| 6.x     | :white_check_mark: |
-| < 6.0   | :x:                |
 
 ## Reporting a Vulnerability
 

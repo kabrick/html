@@ -334,10 +334,12 @@ class FormBuilderTest extends PHPUnit\Framework\TestCase
         $form1 = $this->formBuilder->number('foo');
         $form2 = $this->formBuilder->number('foo', 1);
         $form3 = $this->formBuilder->number('foo', null, ['class' => 'span2']);
+        $form4 = $this->formBuilder->number('foo', 0);
 
         $this->assertEquals('<input name="foo" type="number">', $form1);
         $this->assertEquals('<input name="foo" type="number" value="1">', $form2);
         $this->assertEquals('<input class="span2" name="foo" type="number">', $form3);
+        $this->assertEquals('<input name="foo" type="number" value="0">', $form4);
     }
 
     public function testFormDate()

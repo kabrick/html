@@ -1,10 +1,10 @@
 <?php
 
 use Carbon\Carbon;
-use LaravelLux\Html\Eloquent\FormAccessible;
+use Kabrick\Html\Eloquent\FormAccessible;
 use Illuminate\Database\Eloquent\Model;
-use LaravelLux\Html\FormBuilder;
-use LaravelLux\Html\HtmlBuilder;
+use Kabrick\Html\FormBuilder;
+use Kabrick\Html\HtmlBuilder;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use Illuminate\Routing\RouteCollection;

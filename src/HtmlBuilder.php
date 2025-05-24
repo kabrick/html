@@ -1,6 +1,6 @@
 <?php /** @noinspection PhpUnused */
 
-namespace LaravelLux\Html;
+namespace Kabrick\Html;
 
 use BadMethodCallException;
 use Illuminate\Contracts\View\View;

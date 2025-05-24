@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLux\Html;
+namespace Kabrick\Html;
 
 use Illuminate\Support\Facades\Facade;
 

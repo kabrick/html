@@ -1,8 +1,8 @@
 <?php
 
 use Carbon\Carbon;
-use LaravelLux\Html\FormBuilder;
-use LaravelLux\Html\HtmlBuilder;
+use Kabrick\Html\FormBuilder;
+use Kabrick\Html\HtmlBuilder;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;

@@ -1,11 +1,11 @@
 {
-    "name": "laravellux/html",
+    "name": "kabrick/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
-    "homepage": "https://website.com.se",
+    "homepage": "https://github.com/kabrick",
     "support": {
-        "issues": "https://github.com/laravellux/html/issues",
-        "source": "https://github.com/laravellux/html"
+        "issues": "https://github.com/kabrick/html/issues",
+        "source": "https://github.com/kabrick/html"
     },
     "authors": [
         {
@@ -19,6 +19,10 @@
         {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Douglas Hozea",
+            "email": "douglashozea@gmail.com"
         }
     ],
     "require": {
@@ -36,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelLux\\Html\\": "src/"
+            "Kabrick\\Html\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -48,11 +52,11 @@
         },
         "laravel": {
             "providers": [
-                "LaravelLux\\Html\\HtmlServiceProvider"
+                "Kabrick\\Html\\HtmlServiceProvider"
             ],
             "aliases": {
-                "Form": "LaravelLux\\Html\\FormFacade",
-                "Html": "LaravelLux\\Html\\HtmlFacade"
+                "Form": "Kabrick\\Html\\FormFacade",
+                "Html": "Kabrick\\Html\\HtmlFacade"
             }
         }
     },

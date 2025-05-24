@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLux\Html\Eloquent;
+namespace Kabrick\Html\Eloquent;
 
 use ReflectionClass;
 use ReflectionMethod;

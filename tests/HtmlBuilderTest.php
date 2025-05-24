@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Contracts\View\Factory;
-use LaravelLux\Html\HtmlBuilder;
+use Kabrick\Html\HtmlBuilder;
 use Illuminate\Http\Request;
 use Illuminate\Routing\RouteCollection;
 use Illuminate\Routing\UrlGenerator;
@@ -128,7 +128,7 @@ class HtmlBuilderTest extends PHPUnit\Framework\TestCase
 
     public function testMailto()
     {
-        $htmlBuilder = m::mock('LaravelLux\Html\HtmlBuilder[obfuscate,email]', [$this->urlGenerator, $this->viewFactory]);
+        $htmlBuilder = m::mock('Kabrick\Html\HtmlBuilder[obfuscate,email]', [$this->urlGenerator, $this->viewFactory]);
         $htmlBuilder->shouldReceive('obfuscate', 'email')->andReturnUsing(function () {
             $args = func_get_args();
             return $args[0];

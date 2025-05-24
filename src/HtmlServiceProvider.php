@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLux\Html;
+namespace Kabrick\Html;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
